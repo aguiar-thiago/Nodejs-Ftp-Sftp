@@ -1,0 +1,24 @@
+{
+  "name": "enviaftp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/Controller/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/node": "^7.8.7",
+    "nodemon": "^2.0.2",
+    "sucrase": "^3.13.0"
+  },
+  "dependencies": {
+    "basic-ftp": "^4.5.4",
+    "dotenv": "^8.2.0",
+    "ftp": "^0.3.10",
+    "mysql": "^2.18.1",
+    "ssh2-sftp-client": "^5.1.2"
+  }
+}
